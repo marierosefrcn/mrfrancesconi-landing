@@ -1,0 +1,27 @@
+.banner {
+	display:flex;
+	align-items:center;
+	background-image:linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url(../../Mybanner.jpg);
+	background-size:cover;
+	background-position: center;
+	height: 500px;
+	text-align: center;
+}
+
+.banner h1 {
+	font-size:50px;
+	color: white;
+	margin-top:40px;
+}
+
+.banner h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	opacity:0.8;
+	color: white;
+	margin-bottom:40px;
+}
+
+.banner a {
+	margin-top:40px;
+}

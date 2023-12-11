@@ -1,0 +1,38 @@
+.container {
+	margin: 0 auto;
+  align-items:center;
+}
+
+@media screen and (max-width: 1900px) {
+  .container {
+    width: 1700px;
+    margin : 40px, auto;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 900px;
+    margin : 40px, auto;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin : 40px, auto;
+  }
+}
+@media screen and (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin : 40px, auto;
+  }
+}
+@media screen and (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin : 40px, auto;
+  }
+}
